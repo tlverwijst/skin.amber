@@ -4,32 +4,36 @@
   <include>OpenClose</include>
   <controls>
     <control type="group">
-      <posx>578</posx>
-      <posy>105</posy>
+      <posx>0</posx>
+      <posy>0</posy>
       <control type="image">
-        <posx>130</posx>
-        <width>503</width>
-        <height>136</height>
-        <texture border="120,0,0,0">dialogs/DialogSliderBG.png</texture>
+        <posx>0</posx>
+        <posy>990</posy>
+        <width>650</width>
+        <height>90</height>
+        <texture flipx="true" border="100,0,0,0">common/TimePanel.png</texture>
       </control>
       <control type="image" description="Icon">
-        <posx>134</posx>
-        <posy>4</posy>
-        <width>128</width>
-        <height>128</height>
+        <posx>-23</posx>
+        <posy>957</posy>
+        <width>100</width>
+        <height>100</height>
         <bordersize>24</bordersize>
         <texture>settings/Gears.png</texture>
       </control>
       <control type="label" id="10" description="Heading">
-        <posx>138</posx>
-        <posy>12</posy>
-        <width>600</width>
-        <height>40</height>
-        <align>center</align>
+        <posx>10</posx>
+        <posy>1015</posy>
+        <width>250</width>
+        <height>90</height>
+        <align>left</align>
+        <textcolor>Orange</textcolor>
+        <font>ItemCount</font>
       </control>
       <control type="slider" id="11" description="Slider">
-        <posx>316</posx>
-        <posy>40</posy>
+        <posx>165</posx>
+        <posy>1042</posy>
+        <height>40</height>
         <width>240</width>
         <onup>noop</onup>
         <ondown>noop</ondown>
@@ -37,12 +41,12 @@
         <onright>11</onright>
       </control>
       <control type="label" id="12" description="Slider value">
-        <posx>136</posx>
-        <posy>90</posy>
-        <width>600</width>
-        <height>40</height>
-        <align>center</align>
-        <font>Slider</font>
+        <posx>425</posx>
+        <posy>1015</posy>
+        <width>650</width>
+        <height>90</height>
+        <align>left</align>
+        <font>ItemCount</font>
         <textcolor>White</textcolor>
       </control>
     </control>
